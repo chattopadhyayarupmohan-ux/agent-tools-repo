@@ -1,6 +1,15 @@
 {
-  "function": "getOrder",
-  "lambda": "get-order-tool",
+  "function": "get_order",
+  "description": "Retrieve order details",
+  "keywords": [
+    "show order",
+    "get order",
+    "fetch order",
+    "order details"
+  ],
   "params": ["order_id"],
-  "keywords": ["get", "show", "fetch", "view"]
+  "param_aliases": {
+    "order_id": ["order", "id"]
+  },
+  "lambda": "get-order-lambda"
 }
