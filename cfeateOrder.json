@@ -1,0 +1,5 @@
+{
+  "function": "createOrder",
+  "lambda": "create-order-tool",
+  "params": ["customer", "product"]
+}
