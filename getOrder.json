@@ -1,5 +1,6 @@
 {
   "function": "getOrder",
   "lambda": "get-order-tool",
-  "params": ["order_id"]
+  "params": ["order_id"],
+  "keywords": ["get", "show", "fetch", "view", "order"]
 }
