@@ -1,6 +1,15 @@
 {
-  "function": "createOrder",
-  "lambda": "create-order-tool",
-  "params": ["customer", "product"],
-  "keywords": ["create", "new", "add", "place"]
+  "function": "create_order",
+  "description": "Create a new order",
+  "keywords": [
+    "create order",
+    "place order",
+    "new order"
+  ],
+  "params": ["customer_name", "product"],
+  "param_aliases": {
+    "customer_name": ["for", "customer"],
+    "product": ["product", "item"]
+  },
+  "lambda": "create-order-lambda"
 }
