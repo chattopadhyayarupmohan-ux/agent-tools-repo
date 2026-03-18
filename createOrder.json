@@ -1,5 +1,6 @@
 {
   "function": "createOrder",
   "lambda": "create-order-tool",
-  "params": ["customer", "product"]
+  "params": ["customer", "product"],
+  "keywords": ["create", "new", "add", "place"]
 }
