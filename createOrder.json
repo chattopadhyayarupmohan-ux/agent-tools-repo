@@ -11,5 +11,5 @@
     "customer_name": ["for", "customer"],
     "product": ["product", "item"]
   },
-  "lambda": "create-order-lambda"
+  "lambda": "create-order-tool"
 }
