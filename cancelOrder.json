@@ -11,5 +11,5 @@
   "param_aliases": {
     "order_id": ["order", "id", "order number"]
   },
-  "lambda": "cancel-order-lambda"
+  "lambda": "cancel-order-tool"
 }
