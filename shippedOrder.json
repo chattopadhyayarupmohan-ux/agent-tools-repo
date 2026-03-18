@@ -1,0 +1,6 @@
+{
+  "name": "shippedOrder",
+  "lambda": "shippedOrderLambda",
+  "description": "Marks an order as shipped",
+  "version": "1.0"
+}
