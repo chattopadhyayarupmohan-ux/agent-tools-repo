@@ -8,7 +8,7 @@
   ],
   "params": ["customer_name", "product"],
   "param_aliases": {
-    "customer_name": ["for", "customer"],
+    "customer_name": ["customer", "name"],
     "product": ["product", "item"]
   },
   "lambda": "create-order-tool"
