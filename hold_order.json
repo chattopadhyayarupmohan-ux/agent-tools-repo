@@ -1,0 +1,16 @@
+{
+  "function": "hold_order",
+  "description": "Put an order on hold temporarily",
+  "keywords": [
+    "hold order",
+    "pause order",
+    "put order on hold",
+    "delay order",
+    "stop order temporarily"
+  ],
+  "params": ["order_id"],
+  "param_aliases": {
+    "order_id": ["order", "id", "order number"]
+  },
+  "lambda": "hold-order-lambda"
+}
