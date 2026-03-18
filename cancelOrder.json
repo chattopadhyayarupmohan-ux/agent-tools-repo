@@ -1,5 +1,6 @@
 {
   "function": "cancelOrder",
   "lambda": "cancel-order-tool",
-  "params": ["order_id"]
+  "params": ["order_id"],
+  "keywords": ["cancel", "delete", "remove", "order"]
 }
