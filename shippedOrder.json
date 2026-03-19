@@ -1,15 +1,6 @@
 {
   "function": "ship_order",
-  "description": "Ship an existing order",
-  "keywords": [
-    "ship order",
-    "dispatch order",
-    "send order",
-    "deliver order"
-  ],
-  "params": ["order_id"],
-  "param_aliases": {
-    "order_id": ["order", "id", "order number"]
-  },
-  "lambda": "shippedOrderLambda"
+  "lambda": "shippedOrderLambda",
+  "keywords": ["ship", "dispatch", "deliver", "send order"],
+  "description": "Ship an existing order"
 }
