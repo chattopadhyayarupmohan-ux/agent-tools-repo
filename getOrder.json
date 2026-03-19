@@ -1,15 +1,9 @@
 {
   "function": "get_order",
-  "description": "Retrieve order details",
-  "keywords": [
-    "show order",
-    "get order",
-    "fetch order",
-    "order details"
-  ],
+  "lambda": "get-order-tool",
+  "keywords": ["get", "fetch", "retrieve", "show"],
   "params": ["order_id"],
-  "param_aliases": {
-    "order_id": ["order", "id"]
-  },
-  "lambda": "get-order-tool"
+  "param_mapping": {
+    "order_id": "order_id"
+  }
 }
