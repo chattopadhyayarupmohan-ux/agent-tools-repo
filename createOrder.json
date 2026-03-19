@@ -1,15 +1,26 @@
 {
   "function": "create_order",
+  "lambda": "create-order-tool",
   "description": "Create a new order",
+
   "keywords": [
     "create order",
     "place order",
     "new order"
   ],
-  "params": ["customer_name", "product"],
-  "param_aliases": {
-    "customer_name": ["customer", "name"],
-    "product": ["product", "item"]
+
+  "params": [
+    "customer_name",
+    "product"
+  ],
+
+  "param_mapping": {
+    "customer_name": "customer",
+    "product": "product"
   },
-  "lambda": "create-order-tool"
+
+  "param_aliases": {
+    "customer_name": ["customer", "name", "user"],
+    "product": ["item", "product_name"]
+  }
 }
